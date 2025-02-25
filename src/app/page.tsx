@@ -17,7 +17,7 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 
-const page: React.FC = () => {
+const Page: React.FC = () => {
   const [isDialogOpen, setIsDialogOpen] = useState(false)
   const [username, setUsername] = useState("")
   const [storedUsername, setStoredUsername] = useState<string | null>(null)
@@ -179,4 +179,4 @@ const FeatureCard: React.FC<{
   </div>
 );
 
-export default page;
+export default Page;
