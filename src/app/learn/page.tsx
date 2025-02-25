@@ -204,7 +204,7 @@ const QuestionGame: React.FC = () => {
             <CardContent>
               <Tabs
                 value={userProgress.currentLevel}
-              
+              //@ts-ignore
                 onValueChange={(value: Level) => handleLevelChange(value)}
                 className="w-full"
               >
