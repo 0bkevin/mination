@@ -2,7 +2,7 @@
 module.exports = {
   // ... other configurations
   rules: {
-    "@typescript-eslint/no-unused-vars": "off", // Globally disables the rule!
-    // ... other rules
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error"]
   },
 };
